@@ -11,8 +11,6 @@
     <title></title>
   </head>
   <body>
-<%
-  System.out.println("test czy dziala");
-%>
+
   </body>
 </html>
