@@ -1,5 +1,8 @@
 package domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by mikit on 15.10.2015.
  */
@@ -8,7 +11,7 @@ public class Osoba {
     private int id;
     private String imie;
     private String nazwisko;
-
+    private List<Lekarstwo> lek = new ArrayList<Lekarstwo>();
   public  Osoba(){
         super();
     }
@@ -18,6 +21,7 @@ public class Osoba {
         id=gId++;
         this.imie=imie;
         this.nazwisko=nazwisko;
+
     }
 
     public void setImie(String imie) {
