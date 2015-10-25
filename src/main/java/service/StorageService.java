@@ -24,7 +24,7 @@ public class StorageService {
         db2.add(lekararstwo);
     }
 
-    public List<Osoba> getAllPersons(){
+    public List<Osoba> getDb(){
         return db;
     }
 
